@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.checkout-cont {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+.cart_amount_title {
+  color: #616e7c;
+  font-size: 20px;
+}
+.cart_amount {
+  color: #171f46;
+  font-size: 20px;
+}
+.amount-cont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.total-count {
+  color: #616e7c;
+  font-size: 18px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.checkout-butn {
+  border: none;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 5px;
+  height: 35px;
+  font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+  .amount-cont {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    align-self: flex-end;
+  }
+  .total-count {
+    color: #616e7c;
+    font-size: 18px;
+    align-self: flex-end;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+}
