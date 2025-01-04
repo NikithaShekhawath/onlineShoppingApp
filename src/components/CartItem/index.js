@@ -17,7 +17,7 @@ const CartItem = props => (
       const {id, title, brand, quantity, price, imageUrl} = cartItemDetails
 
       const onRemoveCartItem = () => {
-        value.removeCartItem(id)
+        removeCartItem(id)
       }
 
       const incQuantity = () => {
@@ -63,7 +63,7 @@ const CartItem = props => (
                 type="button"
                 onClick={onRemoveCartItem}
               >
-                Remove
+                <AiFillCloseCircle color="#616E7C" size={20} />
               </button>
             </div>
           </div>

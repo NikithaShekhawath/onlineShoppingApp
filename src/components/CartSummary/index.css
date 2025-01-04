@@ -1,4 +1,49 @@
 /* Write your CSS here */
+.close {
+  color: black;
+  font-size: 20px;
+}
+.close-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  align-self: flex-end;
+}
+.popup-heading {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-bottom: 3px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.popCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px;
+}
+.payment-options-list {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.mode-item {
+  margin-bottom: 2px;
+}
+.payment-label {
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-left: 2px;
+}
+.order-placed {
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-left: 2px;
+  font-weight: 400;
+}
 .checkout-cont {
   align-self: flex-end;
   display: flex;
